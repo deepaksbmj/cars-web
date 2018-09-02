@@ -1,0 +1,167 @@
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-family: 'Arvo', serif;
+	color: #056303;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #056303;
+}
+
+a:hover {
+}
+
+#wrapper {
+	background: url(images/pexels-photo-451590.jpg) no-repeat center top;
+}
+
+#wrapper2 {
+	background: url(images/imgonline-com-ua-resize-xzy5qG0O08G.jpg) no-repeat center top;
+}
+
+
+
+#header {
+	width: 940px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+
+#logo {
+	float: left;
+	
+	color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+}
+
+#logo h1 {
+	padding: 30px 0px 0px 0px;
+	letter-spacing: -3px;
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 150px;
+}
+
+#logo h1 span {
+	color: #8AD500;
+}
+
+#logo h1 a {
+	color: #FFFFFF;
+}
+
+
+#logo p a {
+	color: #FFFFFF;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 50px 20px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	
+}
+
+#menu li {
+	float: left;
+	padding: 0px 15px 0px 15px;
+}
+
+#menu a {
+	display: block;
+	height: 26px;
+	margin-right: 1px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+}
+
+
+
+
+
+
+
+#page {
+	width: 940px;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 592px;
+	padding: 0px 30px;
+}
+
+
+
+#footer {
+	width: 940px;
+	margin: 0px auto;
+	padding: 20px 0px;
+	background: #3D3630;
+	color: #949085;
+}
+
+#footer p {
+	margin: 0;
+	line-height: normal;
+	letter-spacing: 2px;
+	text-align: center;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+#footer a {
+	color: #949085;
+}
+
+#banner {
+	width: 940px;
+	margin: 0px auto;
+	height: 150px;
+}
