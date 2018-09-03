@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>GALLERY</title>
+        
+        <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="images/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="bg_img">
+            <div id="site_div">
+                <div id="header">
+                   
+                    <div id="menu">
+                        <ul>
+                            <li><a href="web.html">Homepage</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="gallery.html" class="active">Gallery</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div id="main">
+                    <div class="main_top"></div>
+                    <div class="main_bg">
+					<h2 class="w3-center"><center>EXOTIC CARS</center></h2>
+
+<div class="w3-content w3-section" style="max-width:1000px">
+ <img class="mySlides" src="images/ff.jpg" style="width:100%" >
+  <img class="mySlides" src="images/lambo.jpg" style="width:100%">
+  <img class="mySlides" src="images/bugatti.jpg" style="width:100%">
+  <img class="mySlides" src="images/koenigsegg-agera-r-front-three-5468fa58375c5.jpg" style="width:100%">
+  <img class="mySlides" src="images/2010-aston-martin-one-77.jpg" style="width:100%">
+  <img class="mySlides" src="images/Hennessey_Venom_F5_1.jpg" style="width:100%">
+  <img class="mySlides" src="images/mercedes-benz-silver-lightning-wallpaper-4.jpg" style="width:100%">
+  <img class="mySlides" src="images/porsche-918-spyder-for-sale-at-californian-dealership-cnc-motors_100538775_l.jpg" style="width:100%">
+  <img class="mySlides" src="images/Bentley-Continental-GT-new-car-UK-848406.jpg" style="width:100%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000);
+}
+</script>
+
+
+                <div id="footer_bot">
+                    <p><a href="#">Privacy Policy</a></p> 
+					<p>Design by DSB</p>
+            </div>
+        </div>
+    </body>
+</html>
